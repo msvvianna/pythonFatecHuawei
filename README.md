@@ -76,3 +76,5 @@ programas Python
 ## 1.3 Objetos de classe simples
 
 ![img.png](images/img6.png)
+
+# 16/10/2024 - CURSO DE PYTHON FATEC HUAWEI - DAY 3
