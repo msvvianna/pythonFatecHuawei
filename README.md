@@ -1,4 +1,4 @@
-# 14/10/2024 - CURSO DE PYTHON FATEC HUAWEI - DAY 1
+# 15/10/2024 - CURSO DE PYTHON FATEC HUAWEI - DAY 1
 
 ## Introdução
 
@@ -61,7 +61,7 @@ programas Python
 
 ![img.png](images/img3.png)
 
-# 15/10/2024 - CURSO DE PYTHON FATEC HUAWEI - DAY 2
+# 16/10/2024 - CURSO DE PYTHON FATEC HUAWEI - DAY 2
 
 # Capitulo 2: Classes e Objetos
 
@@ -77,4 +77,4 @@ programas Python
 
 ![img.png](images/img6.png)
 
-# 16/10/2024 - CURSO DE PYTHON FATEC HUAWEI - DAY 3
+# 17/10/2024 - CURSO DE PYTHON FATEC HUAWEI - DAY 3
