@@ -1,71 +1,124 @@
-# 03/12/2024 - CURSO DE PYTHON FATEC HUAWEI - DAY 1
+# 17/12/2024 - CURSO DE PYTHON FATEC HUAWEI - DAY 1
 
-## Introdução 
+## Capitulo 1: Introdução 
 
-## 1.1 A Linguagem Python
-
-Python foi criada no início dos anos 1990 por Guido van Rossum e lançada em 1991. Hoje, é mantida e desenvolvida pela Python Software Foundation, uma organização sem fins lucrativos criada em 2001. Python é uma linguagem simples e intuitiva, mas ao mesmo tempo poderosa e robusta, o que a torna ideal tanto para estudantes quanto para profissionais.
-
-### Principais Características de Python
-
-### Portabilidade
-Python e suas bibliotecas padrão estão disponíveis em várias plataformas, como Unix, Linux, Windows e Mac OS. Um programa escrito em Python que utiliza apenas as bibliotecas padrão será executado da mesma maneira em qualquer plataforma.
-
-### Código Livre (Opensource)
-Python é escrito em C e é disponibilizado como software livre. Isso permite que programadores desenvolvam e distribuam software sem custos, além de poderem baixar, modificar e utilizar o código, conforme os termos de sua licença.
-
-### Simplicidade com Robustez
-A sintaxe de Python é simples, elegante e legível, mas também poderosa. Com um núcleo enxuto e coerente, ela permite o desenvolvimento de grandes projetos, incluindo aplicações orientadas a objetos, sistemas multimídia, e integração com outras linguagens.
-
-### Grande Aplicabilidade
-Python pode ser usada em diversas áreas, como:
-- Administração de sistemas operacionais
-- Big Data e bancos de dados SQL e NoSQL
-- Aplicações gráficas e multimídia
-- Análise de dados
-- Machine Learning e Inteligência Artificial
-- Programação web
-- Desenvolvimento de software para áreas científicas e específicas, como estatística, engenharia e biologia.
-
-### Versões da Linguagem Python
-
-Python possui duas versões principais: Python 2 e Python 3. Embora compartilhem muitos elementos, Python 3 introduziu mudanças significativas que quebraram a compatibilidade com Python 2. Lançada em 2008, a versão 3 foi inicialmente adotada lentamente devido à grande base de código existente em Python 2. No entanto, após campanhas incentivando a migração, Python 3 tornou-se majoritariamente usada. O suporte a Python 2 foi oficialmente encerrado em 20 de abril de 2020 com o lançamento da última versão, 2.7.18.
-
-Neste material, apenas elementos de Python 3 serão abordados.
-
-## 1.2 Instalação
+### 1.1 Instalação
 
 - https://www.python.org/downloads/
 
-## 1.3 Ambiente de desenvolvimento
+### 1.2 Ambiente de desenvolvimento
 
 ![img.png](images/img.png)
 
 ![img.png](images/img1.png)
 
-## 1.4 Documentação
+### 1.3  Tutorial de Instalação e Utilização Básica do PyCharm Community Edition
 
-- https://docs.python.org/3
+---
+**Introdução**
+O PyCharm é uma das IDEs mais populares para desenvolvimento em Python, oferecendo uma série de recursos que facilitam o desenvolvimento, depuração e teste de aplicações. A versão **Community Edition** é gratuita e atende a maioria das necessidades de desenvolvedores iniciantes e intermediários.
 
-## 1.5 Requisitos minimos para rodar python
+---
 
-- Programas escritos em linguagem Python não exigem grandes capacidades computacionais. Um
-computador antigo com processador i3 das primeiras gerações com 2 Gbytes de memória consegue rodar
-programas Python
+**Pré-requisitos**
+- Sistema Operacional: Windows, macOS ou Linux.
+- **Python**: Certifique-se de que o Python está instalado em seu sistema. Você pode baixá-lo em [python.org](https://www.python.org/downloads/).
 
-## 1.6 Elementos Fundamentais de Python
+**1. Baixar o PyCharm**
+1. Acesse o site oficial do PyCharm: [JetBrains PyCharm](https://www.jetbrains.com/pycharm/download/).
+2. Escolha a versão **Community** e faça o download correspondente ao seu sistema operacional.
 
-![img.png](images/img2.png)
+**2. Instalar no Windows**
+1. Execute o instalador baixado (`pycharm-community-<versão>.exe`).
+2. Siga os passos do assistente de instalação:
+   - Escolha o diretório de instalação.
+   - Opcionalmente, marque:
+     - Criar um atalho na área de trabalho.
+     - Associar arquivos `.py` ao PyCharm.
+3. Clique em **Instalar** e aguarde a conclusão.
+4. Após a instalação, abra o PyCharm e finalize a configuração inicial.
 
-## 1.7 Comentários
+**3. Instalar no macOS**
+1. Abra o arquivo `.dmg` baixado.
+2. Arraste o ícone do PyCharm para a pasta **Aplicativos**.
+3. Abra o PyCharm pela primeira vez e permita a execução caso apareça um aviso de segurança.
 
-![img.png](images/img3.png)
+**4. Instalar no Linux**
+1. Extraia o arquivo `.tar.gz` baixado:
+   ```bash
+   tar -xzf pycharm-community-<versão>.tar.gz
+   ```
+2. Navegue até o diretório extraído:
+   ```bash
+   cd pycharm-community-<versão>/bin
+   ```
+3. Execute o PyCharm:
+   ```bash
+   ./pycharm.sh
+   ```
+---
 
-## Teste Capitulo 1
+**Primeiros Passos no PyCharm**
 
-# 04/12/2024 - CURSO DE PYTHON FATEC HUAWEI - DAY 2
+**1. Configuração Inicial**
+1. Ao abrir o PyCharm pela primeira vez:
+   - Escolha um tema (claro ou escuro).
+   - Configure plug-ins adicionais (opcional).
+   - Clique em **Start Using PyCharm**.
 
-# Capitulo 2: Classes e Objetos - Parte I
+**2. Criar um Novo Projeto**
+1. Na tela inicial, clique em **New Project**.
+2. Escolha um local para o projeto no seu sistema.
+3. Selecione o interpretador Python:
+   - Clique em **Add Interpreter**.
+   - Escolha **System Interpreter** e selecione a versão do Python instalada.
+4. Clique em **Create**.
+
+**3. Escrever e Executar Código**
+1. Clique com o botão direito no diretório principal do projeto e selecione **New > Python File**.
+2. Nomeie o arquivo (ex.: `hello_world.py`).
+3. Escreva seu código no editor. Exemplo:
+   ```python
+      print("Hello, PyCharm!")
+   ```
+4. Para executar o código:
+   - Clique com o botão direito no editor e selecione **Run 'hello_world'**.
+   - Ou pressione **Shift + F10**.
+
+---
+
+**Recursos Básicos**
+
+**1. Autocompletar Código**
+O PyCharm sugere automaticamente métodos, variáveis e funções enquanto você digita.
+
+**2. Depuração**
+1. Coloque um **breakpoint** clicando à esquerda da linha de código.
+2. Execute o script em modo de depuração:
+   - Clique no ícone de **bug** ou pressione **Shift + F9**.
+3. Inspecione valores e fluxos de execução.
+
+**3. Gerenciamento de Pacotes**
+1. Abra o menu **File > Settings**.
+2. Vá até **Project > Python Interpreter**.
+3. Clique no botão **+** para instalar novos pacotes, como:
+   ```bash
+   pip install nome_do_pacote
+   ```
+---
+
+**Conclusão**
+O PyCharm Community Edition é uma ferramenta poderosa para quem deseja trabalhar com Python. Sua interface intuitiva e recursos avançados ajudam a aumentar a produtividade, mesmo para iniciantes. Explore seus recursos e torne o desenvolvimento mais eficiente! 
+
+---
+
+**Referências**
+- [Documentação Oficial do PyCharm](https://www.jetbrains.com/pycharm/documentation/)
+
+
+### 1.4 Teste do Capitulo 1
+
+## Capítulo 2: Classes e objetos
 
 ## 2.1 Armazenamento de dados
 
@@ -82,8 +135,6 @@ programas Python
 ## 2.4 Comandos e atributos
 
 ![img.png](images/img7.png)
-
-# Capitulo 2: Classes e Objetos - Parte II
 
 ## 2.5 Id dos objetos Python Parte I
 
