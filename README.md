@@ -183,7 +183,7 @@ print(id(a) == id(b))  # True, pois Python reaproveita o mesmo valor imutável.
 
 ![img.png](images/img9.png)
 
-# /01/25 - CURSO DE PYTHON FATEC HUAWEI - DAY 3
+# 29/01/25 - CURSO DE PYTHON FATEC HUAWEI - DAY 
 
 ## 2.7 Modelo de dados de Python
 
