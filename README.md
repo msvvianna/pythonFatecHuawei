@@ -1,4 +1,4 @@
-# 27/01/25 - CURSO DE PYTHON FATEC HUAWEI - DAY 1
+# 30/01/25 - CURSO DE PYTHON FATEC HUAWEI - DAY 1
 
 ## Capitulo 1: Introdução 
 
@@ -132,8 +132,6 @@ dizemos que qtde é a variável e 2 é o seu conteúdo.
 
 ![img.png](images/img4.png)
 
-# 28/01/25 - CURSO DE PYTHON FATEC HUAWEI - DAY 2
-
 ## 2.2 Classes e objetos em python
 
 - **Classe** é um modelo que define como um objeto é construído. A classe é codificada no
@@ -150,6 +148,7 @@ banco de dados, etc.
 
 ![img.png](images/img5.png)
 
+# 31/01/25 - CURSO DE PYTHON FATEC HUAWEI - DAY 2
 
 ## 2.3 Objetos de classe simples
 
@@ -183,7 +182,6 @@ print(id(a) == id(b))  # True, pois Python reaproveita o mesmo valor imutável.
 
 ![img.png](images/img9.png)
 
-# 29/01/25 - CURSO DE PYTHON FATEC HUAWEI - DAY 
 
 ## 2.7 Modelo de dados de Python
 
@@ -258,6 +256,8 @@ print(a ** b)  # 1000
 print(-a)      # -10
 
 ```
+
+# /02/25 - CURSO DE PYTHON FATEC HUAWEI - DAY 
 
 ## 2.9 Comandos de atribuição incremental
 
