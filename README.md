@@ -228,11 +228,10 @@ O modelo de dados em Python é flexível e extensível, permitindo manipulação
 
 ![img.png](images/img10.png)
 
+
 ![img.png](images/img11.png)
 
 ## 2.8 Operadores aritmeticos
-
-#### Operadores Aritméticos em Python
 
 | Operador        | Símbolo | Exemplo          | Descrição                                     |
 |-----------------|---------|------------------|-----------------------------------------------|
@@ -260,11 +259,66 @@ print(-a)      # -10
 
 ```
 
+## 2.9 Comandos de atribuição incremental
+
+- Os comandos de atribuição incremental em Python são usados para atualizar o valor de uma variável de maneira mais concisa. Eles combinam um operador aritmético ou bitwise com o operador de atribuição (=), permitindo modificar a variável sem precisar reescrevê-la completamente.
+
+![img.png](images/img12.png)
+
+| Operação         | Operador | Exemplo    | Explicação do Exemplo à esquerda          | Resultado esperado |
+|----------------|----------|-----------|---------------------------------|------------------|
+| Adição         | `+`      | `C = A + B`  | Soma de A com B               | `19`             |
+| Subtração      | `-`      | `C = A - B`  | Subtrai B de A                | `9`              |
+| Multiplicação  | `*`      | `C = A * B`  | Multiplica A por B            | `70`             |
+| Divisão       | `/`      | `C = A / B`  | Divide A por B, gerando um resultado real | `2.8`            |
+| Divisão inteira | `//`     | `C = A // B` | Divide A por B, gerando um resultado inteiro | `2`              |
+| Resto (módulo) | `%`      | `C = A % B`  | Calcula o resto da divisão de A por B | `4`              |
+| Menos unário   | `-`      | `C = -A`    | Negativa o valor de A         | `-14`            |
+| Potenciação    | `**`     | `C = A ** B` | Eleva A por B                 | `537824`         |
+
+## 2.10 Funções matemáticas
+
+- Python fornece diversas funções matemáticas embutidas e no módulo `math`. Abaixo estão algumas das principais:
+
+### **Funções Matemáticas Embutidas**
+
+| Função         | Descrição                                  | Exemplo                    |
+|---------------|--------------------------------|----------------------------|
+| `abs(x)`     | Retorna o valor absoluto de `x` | `abs(-5) -> 5` |
+| `round(x, n)` | Arredonda `x` para `n` casas decimais | `round(3.14159, 2) -> 3.14` |
+| `pow(x, y)`  | Retorna `x` elevado a `y` | `pow(2, 3) -> 8` |
+| `max(a, b, c, ...)` | Retorna o maior valor | `max(3, 7, 2) -> 7` |
+| `min(a, b, c, ...)` | Retorna o menor valor | `min(3, 7, 2) -> 2` |
+
+### **Funções do Módulo `math`**
+
+Para utilizar essas funções, é necessário importar o módulo `math`:
+
+```python
+import math
+
+```
+
+| Função          | Descrição | Pertence a |
+|----------------|------------------------------------------------------|--------------|
+| `abs(x)`      | Valor absoluto (módulo) de `x` | Biblioteca Padrão |
+| `int(x)`      | Converte `x` para inteiro eliminando sua parte decimal. O conteúdo de `x` deve ser real | Biblioteca Padrão |
+| `float(x)`    | Converte `x` para número real. O conteúdo de `x` deve ser inteiro | Biblioteca Padrão |
+| `round(x[, n])` | Arredonda `x` com `n` dígitos decimais. Se `n` for omitido, o valor `0` é assumido | Biblioteca Padrão |
+| `trunc(x)`    | O valor `x` é truncado, ou seja, a parte decimal é eliminada. Na prática, equivale a `int(x)` | Biblioteca `math` |
+| `floor(x)`    | Retorna o maior inteiro `≤ x` | Biblioteca `math` |
+| `ceil(x)`     | Retorna o menor inteiro `≥ x` | Biblioteca `math` |
+| `sqrt(x)`     | Calcula a raiz quadrada de `x` | Bibliotecas `math` e `cmath` |
+| `exp(x)`      | Retorna o exponencial de `x`, ou seja, `e^x` | Bibliotecas `math` e `cmath` |
+| `log(x[, base])` | Retorna o logaritmo de `x` na base fornecida. Se a base for omitida, calcula o logaritmo natural | Bibliotecas `math` e `cmath` |
+| `sin(x)`      | Retorna o seno do ângulo `x` em radianos | Bibliotecas `math` e `cmath` |
+| `cos(x)`      | Retorna o cosseno do ângulo `x` em radianos | Bibliotecas `math` e `cmath` |
+| `tan(x)`      | Retorna a tangente do ângulo `x` em radianos | Bibliotecas `math` e `cmath` |
+| `rect(r, phi)` | Converte um número complexo expresso em coordenadas polares para sua representação retangular | Biblioteca `cmath` |
+| `polar(x)`    | Retorna a representação do argumento `x` expresso em coordenadas polares. Retorna uma tupla `(r, phi)`, em que `r` é o módulo e `phi` é a fase | Biblioteca `cmath` |
 
 
-
-
-
+## 2.11 Teste Capitulo 2
 
 
 
