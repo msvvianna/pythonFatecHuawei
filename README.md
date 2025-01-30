@@ -1,4 +1,4 @@
-# 30/01/25 - CURSO DE PYTHON FATEC HUAWEI - DAY 1
+# 31/01/25 - CURSO DE PYTHON FATEC HUAWEI - DAY 1
 
 ## Capitulo 1: Introdução 
 
@@ -148,7 +148,7 @@ banco de dados, etc.
 
 ![img.png](images/img5.png)
 
-# 31/01/25 - CURSO DE PYTHON FATEC HUAWEI - DAY 2
+# 01/02/25 - CURSO DE PYTHON FATEC HUAWEI - DAY 2
 
 ## 2.3 Objetos de classe simples
 
