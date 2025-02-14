@@ -1,3 +1,3 @@
-# 09/02/25 - Inicio do curso de Python Fatec Huawei.
+# 13/02/25 - Inicio do curso de Python Fatec Huawei.
 
 
